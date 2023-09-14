@@ -15,9 +15,9 @@ Compilar binário final para rodar no target
 
 Entao essas features podem não ser implementadas.
 
-[ ] Compilar CppUtest com esp-idf
+[  ] Compilar CppUtest com esp-idf
 
-[ ] script para build e rodas os testes
+[X] script para build e rodas os testes
 ## Dependencias
 
 As dependências são as mesma para build do esp-idf [espressif](https://docs.espressif.com/projects/esp-idf/)
@@ -38,6 +38,37 @@ $ ./env
 ```bash
 $ cmake -B build -DTESTS=ON
 ```
+
+### Uma nova forma de executar de compilar e radas os teste
+```bash
+$ python3 run_test.py
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+building tests cpputest
+-- Using CppUTEst in path /home/castro/developer/esp/esp32-linux-cpputest/tests/cpputest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/castro/developer/esp/esp32-lunux-cpputest/build
+[ 25%] Building CXX object tests/readfile/CMakeFiles/readfile_test.dir/readfileTest.cpp.o
+[ 50%] Linking CXX static library libreadfile_test.a
+[ 50%] Built target readfile_test
+[ 75%] Building CXX object tests/CMakeFiles/tests.dir/tests.cpp.o
+[100%] Linking CXX executable tests
+[100%] Built target tests
+.
+OK (1 tests, 1 ran, 1 checks, 0 ignored, 0 filtered out, 0 ms)
+```
+
 #### Compilar binário esp32 para rodar no host
 
 ```bash

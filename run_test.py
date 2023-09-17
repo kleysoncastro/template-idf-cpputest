@@ -6,15 +6,15 @@ def build_and_run_cpp_project():
     project_directory = os.getcwd()
 
     # Comando para configurar o projeto CMake
-    cmake_configure_command = f"cmake {project_directory} -B build -DTESTS=ON"
+    cmake_configure_command = f"cmake {project_directory} -B build-host -DTESTS=ON"
 
 
     os.environ["MAKEFLAGS"] = "-j4"
 
-    cmake_build_command = "cmake --build build"
+    cmake_build_command = "cmake --build build-host"
 
     # Comando para executar o programa
-    run_command = "./build/tests/tests"
+    run_command = "./build-host/tests/tests"
 
     # Execute os comandos
     subprocess.run(cmake_configure_command, shell=True, check=True)

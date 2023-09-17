@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreadfile_test.a CMakeFiles/readfile_test.dir/readfileTest.cpp.o
+/usr/bin/ranlib libreadfile_test.a

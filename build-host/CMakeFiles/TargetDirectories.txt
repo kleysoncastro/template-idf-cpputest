@@ -1,0 +1,9 @@
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/CMakeFiles/coverage.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/CMakeFiles/edit_cache.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/CMakeFiles/rebuild_cache.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/tests/CMakeFiles/tests.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/tests/CMakeFiles/edit_cache.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/tests/CMakeFiles/rebuild_cache.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/tests/readfile/CMakeFiles/readfile_test.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/tests/readfile/CMakeFiles/edit_cache.dir
+/home/castro/developer/esp/esp32-lunux-cpputest/build-host/tests/readfile/CMakeFiles/rebuild_cache.dir

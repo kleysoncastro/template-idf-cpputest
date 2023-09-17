@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 -coverage -g CMakeFiles/tests.dir/tests.cpp.o -o tests   -L/home/castro/developer/esp/esp32-lunux-cpputest/tests/cpputest/build-host/lib  -Wl,-rpath,/home/castro/developer/esp/esp32-lunux-cpputest/tests/cpputest/build-host/lib -lCppUTestExt -lCppUTest readfile/libreadfile_test.a 
